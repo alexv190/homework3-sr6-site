@@ -24,7 +24,7 @@ export class MyProjectsComponent implements OnInit {
       'Приложение "Журнал оценок"', 'Учебное приложение с примером использования localStorage', 'https://stackblitz.com/github/alexv190/homework-sr4-task56'
     ));
     this.projects.push(new Project(
-      'Игра "Быки и коровы"', 'Увлекательная пошаговая логическая игра', 'https://stackblitz.com/github/alexv190/homework3-sr5-task6'
+      'Тестовые проекты Angular', 'Проект с реализованной директивой, аналогичной *ngIf', 'https://stackblitz.com/github/alexv190/homework-sr4-task7'
     ));
   }
 }

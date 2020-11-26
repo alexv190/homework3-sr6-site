@@ -1,9 +1,9 @@
 <div>
   <section>
     <div class="example-button-row">
-      <a mat-flat-button color="primary" href="/">Главная</a>
-      <a mat-flat-button color="primary" href="/projects">Мои проекты</a>
-      <a mat-flat-button color="primary" href="/about">Обо мне</a>
+      <a mat-flat-button color="primary" routerLink="/">Главная</a>
+      <a mat-flat-button color="primary" (click)="openProjects()">Мои проекты</a>
+      <a mat-flat-button color="primary" [routerLink]="['/about']">Обо мне</a>
     </div>
   </section>
 </div>
