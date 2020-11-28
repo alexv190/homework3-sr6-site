@@ -18,7 +18,6 @@ export class HistoryNavigationService {
         console.log(urlAfterRedirects);
         this.pageOpened(urlAfterRedirects);
       });
-      console.log('history service init')
   }
 
   pageOpened(url: string) {
@@ -27,8 +26,6 @@ export class HistoryNavigationService {
     }
     if (this.navigatingInHistory) {
       this.navigatingInHistory = false;
-      console.log(' history:',this.history, ' pointer: ', this.openedPagePointer);
-      console.log('navigatingInHistory = ',url);
     } else {
  
     if (this.openedPagePointer >= 0 && this.history.length > this.openedPagePointer) {
@@ -36,8 +33,6 @@ export class HistoryNavigationService {
     }
     this.openedPagePointer++;
     this.history.push(url);
-    console.log('added history:',url);
-    console.log(' history:',this.history, ' pointer: ', this.openedPagePointer);
     }
     
   }

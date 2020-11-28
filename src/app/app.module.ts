@@ -12,6 +12,8 @@ import { HistoryNavigationComponent } from './pageparts/history-navigation/histo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { StatComponent } from './pages/stat/stat.component';
+import { StatHandlerComponent } from './pageparts/stat-handler/stat-handler.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { MatCardModule } from '@angular/material/card';
     MainComponent,
     HeaderComponent,
     HistoryNavigationComponent,
+    StatComponent,
+    StatHandlerComponent,
   ],
   imports: [
     BrowserModule,
