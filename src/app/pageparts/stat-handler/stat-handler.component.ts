@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { StatService } from 'src/app/stat.service';
+import { StatService } from '../../stat.service';
 
 @Component({
   selector: 'stat-handler',

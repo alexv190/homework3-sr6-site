@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { DomService } from 'src/app/dom.service';
-import { StatService } from 'src/app/stat.service';
+import { DomService } from '../../dom.service';
+import { StatService } from '../../stat.service';
 
 @Component({
   selector: 'app-stat',
